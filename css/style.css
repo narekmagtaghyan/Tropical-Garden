@@ -10,6 +10,7 @@
     background-color: #ccdef0;
     background-image: radial-gradient(circle 675px at center, #fff 0%, #ccdef0 100%);
     padding: 70px 0 70px 0;
+    color: black;
 }
 
 .container {
@@ -63,3 +64,55 @@
     font-size: 21px;
     text-decoration: underline;
 }
+
+.header .header_content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.header .header_content .header_desc {
+    width: 500px;
+    margin-top: 70px;
+}
+
+.header .header_content .header_title {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.header .header_content .header_text {
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.header .header_content .header_btn {
+    display: inline-block;
+    margin-top: 35px;
+    height: 65px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 60px;
+    background-color: #fadb60;
+    background-image: linear-gradient(to top, #ffcc00 0%, #fadb60 100%);
+
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    transition: 0.4s all;
+    text-decoration: none;
+
+    line-height: 65px;
+}
+
+.header .header_btn:hover {
+    transition: 0.4s all;
+    padding-right: 80px;
+}
+
+.header .header_content .header_photo {
+    width: 670px;
+} 
